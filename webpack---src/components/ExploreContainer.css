@@ -1,0 +1,70 @@
+.container {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container strong {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #8c8c8c;
+    margin: 0;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.sidebar {
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    width: 450px;
+}
+
+.searchbar {
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 10px;
+    width: 300px;
+    top: 61px;
+}
+
+.searchbtn {
+    margin-left: -8px;
+    transform: scale(1.2);
+    margin-top: 11px;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.zoomcontrols {
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 1px;
+    top: 110px;
+}
+
+.footer {
+    position: fixed;
+    z-index: 999;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
